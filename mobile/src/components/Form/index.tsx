@@ -10,7 +10,7 @@ import { ScreenshotButton } from "../ScreenshotButton";
 import { FeedbackTypes } from "../Widget";
 
 import { styles } from "./styles";
-import axios from "axios";
+import { api } from "../../libs/api";
 
 interface Props {
   feedbackType: FeedbackTypes;
@@ -54,7 +54,7 @@ export function Form({
       (await FileSystem.readAsStringAsync(screenshot, { encoding: "base64" }));
 
     try {
-      await axios.post("/feedbacks", {
+      await api.post("/feedbacks", {
         type: feedbackType,
         screenshot: `data:image/png;base64, ${screenshotBase64}`,
         comment,
