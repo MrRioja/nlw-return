@@ -1,5 +1,3 @@
-# NLW Return
-
 ![Capa](https://user-images.githubusercontent.com/55336456/168946242-3d8b38cb-b17a-433e-bc04-18b1484b82f3.png)
 
 
