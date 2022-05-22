@@ -11,13 +11,13 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 
 ```bash
 # Clone este repositório
-$ git clone git@github.com:MrRioja/OmniStack-8.git
+$ git clone git@github.com:MrRioja/nlw-return.git
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd OmniStack-8
+$ cd nlw-return
 
 # Vá para a pasta server
-$ cd backend
+$ cd server
 
 # Instale as dependências
 $ npm install
@@ -36,13 +36,13 @@ $ yarn dev
 
 ```bash
 # Clone este repositório
-$ git clone git@github.com:MrRioja/OmniStack-8.git
+$ git clone git@github.com:MrRioja/nlw-return.git
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd OmniStack-8
+$ cd nlw-return
 
 # Vá para a pasta server
-$ cd frontend
+$ cd web
 
 # Instale as dependências
 $ npm install
@@ -61,13 +61,13 @@ $ yarn start
 
 ```bash
 # Clone este repositório
-$ git clone git@github.com:MrRioja/OmniStack-8.git
+$ git clone git@github.com:MrRioja/nlw-return.git
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd OmniStack-8
+$ cd nlw-return
 
 # Vá para a pasta server
-$ cd tindev
+$ cd mobile
 
 # Instale as dependências
 $ npm install
