@@ -1,5 +1,44 @@
 ![Capa](https://user-images.githubusercontent.com/55336456/168946242-3d8b38cb-b17a-433e-bc04-18b1484b82f3.png)
 
+<br><br><br>
+
+<p align="center">
+  <img src="https://img.shields.io/static/v1?label=NLW&message=return&color=blueviolet&style=for-the-badge"/>
+  <img src="https://img.shields.io/github/license/MrRioja/nlw-return?color=blueviolet&logo=License&style=for-the-badge"/>
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/MrRioja/nlw-return?color=blueviolet&logo=JavaScript&logoColor=white&style=for-the-badge">
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/MrRioja/nlw-return?color=blueviolet&style=for-the-badge">
+</p>
+<br>
+
+<p align="center">
+  <a href="#sobre">Sobre</a> •
+  <a href="#tindev">Feedback Widget</a> •
+  <a href="#instalação">Instalação</a> •
+  <a href="#tecnologias">Tecnologias</a> •
+  <a href="#autor">Autor</a>  
+</p>
+
+<br><br><br>
+
+## Sobre
+
+<p>
+  Projeto desenvolvido durante a <strong>NLW Return</strong>, evento criado pela <strong><a href="https://rocketseat.com.br/">Rocketseat</a></strong>.   
+  Um evento 100% online e GRATUITO, com conteúdo exclusivo e INÉDITO.
+
+Ocorreu do dia 02 ao dia 08 de Maio de 2022 e teve como intuito mostrar na prática o poder da stack
+<strong><a href="https://nodejs.org/pt-br/">NodeJS</a></strong> +
+<strong><a href="https://pt-br.reactjs.org/">ReactJS</a></strong> +
+<strong><a href="https://reactnative.dev">React Native</a></strong> e como essas tecnologias podem te levar até os seus maiores objetivos como programador.
+
+</p>
+
+<br><br>
+
+<!-- <img src="./readme/Wallpaper.png" alt="Logo" style="border-radius: 20px"/> -->
+
+<br><br><br>
+
 
 ## Instalação
 
