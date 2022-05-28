@@ -12,7 +12,7 @@
 
 <p align="center">
   <a href="#sobre">Sobre</a> •
-  <a href="#tindev">Feedback Widget</a> •
+  <a href="#Feedback Widget">Feedback Widget</a> •
   <a href="#instalação">Instalação</a> •
   <a href="#tecnologias">Tecnologias</a> •
   <a href="#autor">Autor</a>  
