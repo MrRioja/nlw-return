@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/static/v1?label=NLW&message=return&color=blueviolet&style=for-the-badge"/>
   <img src="https://img.shields.io/github/license/MrRioja/nlw-return?color=blueviolet&logo=License&style=for-the-badge"/>
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/MrRioja/nlw-return?color=blueviolet&logo=JavaScript&logoColor=white&style=for-the-badge">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/MrRioja/nlw-return?color=blueviolet&logo=TypeScript&logoColor=white&style=for-the-badge">
   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/MrRioja/nlw-return?color=blueviolet&style=for-the-badge">
 </p>
 <br />
@@ -28,7 +28,7 @@ Ocorreu do dia 02 ao dia 08 de Maio de 2022 e teve como intuito mostrar na prát
 <strong><a href="https://pt-br.reactjs.org/">ReactJS</a></strong> +
 <strong><a href="https://reactnative.dev">React Native</a></strong> e como essas tecnologias podem te levar até os seus maiores objetivos como programador.
 
-## Feedback Widget
+## FeedbackWidget
 
 O Feedback widget é uma aplicação disponibilizada para os usuários terem contato com o time de desenvolvimento para que possam falar sobre problemas, repassar alguma ideia que tenham ou falar sobre outros assuntos. A aplicação está disponível tanto na web quanto no mobile e possui as mesmas funcionalidades em ambas as plataformas.
 
@@ -60,25 +60,25 @@ Vamos acompanhar o fluxo completo no GIF abaixo e ver a simplicidade e agilidade
 
 No mobile o funcionamento é o mesmo. Na página aonde o widget está adicionado teremos o seguinte:
 
-![Widget fechado](./readme/widget-mobile.png)
+<img src="./readme/widget-mobile.png" alt="Widget fechado" height="400px" />
 
 Após clicar no widget ele será aberto e teremos as três opções disponíveis:
 
-![Widget aberto](./readme/widget-open-mobile.png)
+<img src="./readme/widget-open-mobile.png" alt="Widget aberto" height="400px" />
 
 Ao clicar na opção desejada o formulário de feedback será exibido na tela com o campo de texto e o botão para tirar um printScreen da tela:
 
-![Widget com opção selecionada](./readme/widget-example-mobile.png)
+<img src="./readme/widget-example-mobile.png" alt="Widget com opção selecionada" height="400px" />
 
 Após escrever nossa mensagem à equipe responsável e adicionar nossa evidência, teremos a mensagem a seguir para confirmar que o feedback foi enviado com sucesso:
 
-![Feedback enviado](./readme/feedback-sended-mobile.png)
+<img src="./readme/feedback-sended-mobile.png" alt="Feedback enviado" height="400px" />
 
 E pronto, nosso feedback foi enviado para a equipe responsável com todas as informações preenchidas! 🙃
 
 Abaixo um exemplo do fluxo de feedback completo para exemplificar a facilidade e agilidade do widget para concessão de feedbacks:
 
-![Exemplo de cadastro de feedback](./readme/widget-example-mobile.gif)
+<img src="./readme/widget-example-mobile.gif" alt="Exemplo de cadastro de feedback" height="400px" />
 
 ## Instalação
 
