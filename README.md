@@ -1,54 +1,90 @@
 ![Capa](https://user-images.githubusercontent.com/55336456/168946242-3d8b38cb-b17a-433e-bc04-18b1484b82f3.png)
 
-<br><br><br>
-
 <p align="center">
   <img src="https://img.shields.io/static/v1?label=NLW&message=return&color=blueviolet&style=for-the-badge"/>
   <img src="https://img.shields.io/github/license/MrRioja/nlw-return?color=blueviolet&logo=License&style=for-the-badge"/>
   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/MrRioja/nlw-return?color=blueviolet&logo=JavaScript&logoColor=white&style=for-the-badge">
   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/MrRioja/nlw-return?color=blueviolet&style=for-the-badge">
 </p>
-<br>
+<br />
 
 <p align="center">
   <a href="#sobre">Sobre</a> •
-  <a href="#Feedback Widget">Feedback Widget</a> •
+  <a href="#feedbackwidget">Feedback Widget</a> •
   <a href="#instalação">Instalação</a> •
   <a href="#tecnologias">Tecnologias</a> •
   <a href="#autor">Autor</a>  
 </p>
 
-<br><br><br>
+<br />
 
 ## Sobre
 
-<p>
-  Projeto desenvolvido durante a <strong>NLW Return</strong>, evento criado pela <strong><a href="https://rocketseat.com.br/">Rocketseat</a></strong>.   
-  Um evento 100% online e GRATUITO, com conteúdo exclusivo e INÉDITO.
+Projeto desenvolvido durante a <strong>NLW Return</strong>, evento criado pela <strong><a href="https://rocketseat.com.br/">Rocketseat</a></strong>.  
+ Um evento 100% online e GRATUITO, com conteúdo exclusivo e INÉDITO.
 
 Ocorreu do dia 02 ao dia 08 de Maio de 2022 e teve como intuito mostrar na prática o poder da stack
 <strong><a href="https://nodejs.org/pt-br/">NodeJS</a></strong> +
 <strong><a href="https://pt-br.reactjs.org/">ReactJS</a></strong> +
 <strong><a href="https://reactnative.dev">React Native</a></strong> e como essas tecnologias podem te levar até os seus maiores objetivos como programador.
 
-</p>
-
-<br><br>
-
-<!-- <img src="./readme/Wallpaper.png" alt="Logo" style="border-radius: 20px"/> -->
-
-<br><br><br>
-
 ## Feedback Widget
 
+O Feedback widget é uma aplicação disponibilizada para os usuários terem contato com o time de desenvolvimento para que possam falar sobre problemas, repassar alguma ideia que tenham ou falar sobre outros assuntos. A aplicação está disponível tanto na web quanto no mobile e possui as mesmas funcionalidades em ambas as plataformas.
 
-<br><br><br>
+Vamos ver abaixo na pratica como tudo funciona...😎
+
+### Widget na web
+
+Ao acessar a página que contenha o widget teremos no canto inferior direito nossa funcionalidade, conforme imagem a seguir:
+
+![Widget fechado](./readme/widget.png)
+
+Ao clicar no widget, as opções disponíveis serão exibidas para o usuário:
+
+![Widget aberto](./readme/widget-open.png)
+
+Ao escolher a opção desejada, o usuário terá um pequeno formulário contendo um campo de texto para ele digitar sua mensagem para os desenvolvedores e um botão para tirar um printScreen para anexar na mensagem dele, conforme exemplificado abaixo:
+
+![Widget com opção selecionada](./readme/widget-option-open.png)
+
+Feito isso, basta enviar o feedback e, após a tela de confirmação abaixo, bastará aguardar contato da equipe responsável: 🙃
+
+![Feedback enviado](./readme/feedback-sended.png)
+
+Vamos acompanhar o fluxo completo no GIF abaixo e ver a simplicidade e agilidade que a aplicação entrega para a funcionalidade proposta:
+
+![Exemplo de cadastro de feedback](./readme/widget-example.gif)
+
+### Widget no mobile
+
+No mobile o funcionamento é o mesmo. Na página aonde o widget está adicionado teremos o seguinte:
+
+![Widget fechado](./readme/widget-mobile.png)
+
+Após clicar no widget ele será aberto e teremos as três opções disponíveis:
+
+![Widget aberto](./readme/widget-open-mobile.png)
+
+Ao clicar na opção desejada o formulário de feedback será exibido na tela com o campo de texto e o botão para tirar um printScreen da tela:
+
+![Widget com opção selecionada](./readme/widget-example-mobile.png)
+
+Após escrever nossa mensagem à equipe responsável e adicionar nossa evidência, teremos a mensagem a seguir para confirmar que o feedback foi enviado com sucesso:
+
+![Feedback enviado](./readme/feedback-sended-mobile.png)
+
+E pronto, nosso feedback foi enviado para a equipe responsável com todas as informações preenchidas! 🙃
+
+Abaixo um exemplo do fluxo de feedback completo para exemplificar a facilidade e agilidade do widget para concessão de feedbacks:
+
+![Exemplo de cadastro de feedback](./readme/widget-example-mobile.gif)
 
 ## Instalação
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/).
-Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/).
 
 ### 🎲 Rodando o Back End (servidor)
 
@@ -72,7 +108,7 @@ $ npm run dev
 # Caso prefira usar o Yarn execute o comando abaixo
 $ yarn dev
 
-# O servidor inciará na porta 3333 ou na porta definida no arquivo .env na variavel APP_PORT - acesse <http://localhost:3333>
+# O servidor inciará na porta 3333 ou na porta definida no arquivo .env na variável APP_PORT - acesse <http://localhost:3333>
 ```
 
 ### 🖥️ Rodando o Front End (Web)
@@ -93,9 +129,9 @@ $ npm install
 $ yarn
 
 # Execute a aplicação em modo de desenvolvimento
-$ npm run start
+$ npm run dev
 # Caso prefira usar o Yarn execute o comando abaixo
-$ yarn start
+$ yarn dev
 
 # O servidor inciará na porta 3000 - acesse <http://localhost:3000>
 ```
@@ -131,12 +167,14 @@ $ expo start
 
 <img align="left" src="https://profilinator.rishav.dev/skills-assets/react-original-wordmark.svg" alt="React" height="75" />
 
+<img align="left" src="https://miro.medium.com/max/512/1*3o8TOSojT64ChGpjop0USA.png" alt="Expo" height="75" />
+
 <br><br><br><br><br><br>
 
 ## Autor
 
 <div align="center">
-<img src="https://badges.pufler.dev/contributors/MrRioja/Omnistack-8?size=100&padding=5&bots=false"/>
+<img src="https://images.weserv.nl/?url=avatars.githubusercontent.com/u/55336456?v=4&h=100&w=100&fit=cover&mask=circle&maxage=7d" />
 <h1>Luiz Rioja</h1>
 <strong>Backend Developer</strong>
 <br/>
